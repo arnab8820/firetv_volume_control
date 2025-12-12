@@ -16,7 +16,7 @@
 
         <service
             android:exported="true"
-            android:name=".AccessibilityService"
+            android:name=".VolumeControlService"
             android:label="Volume control service"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>

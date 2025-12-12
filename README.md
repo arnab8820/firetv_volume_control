@@ -10,6 +10,6 @@ Install apk and then grant below permissions from adb
 2. To be able to show the volume controls UI
 
 ```shell
-adb shell settings put secure enabled_accessibility_services com.example.volumecontrolservice/com.example.volumecontrolservice.AccessibilityService
+adb shell settings put secure enabled_accessibility_services com.example.volumecontrolservice/com.example.volumecontrolservice.VolumeControlService
 adb shell appops set com.example.volumecontrolservice  SYSTEM_ALERT_WINDOW allow
 ```
