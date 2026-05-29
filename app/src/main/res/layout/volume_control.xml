@@ -18,7 +18,7 @@
         android:layout_height="5dp"
         android:layout_centerVertical="true"
         android:layout_marginStart="30dp"
-        android:layout_toEndOf="@id/text"
+        android:layout_toEndOf="@id/imageView"
         android:progress="50"
         android:progressTint="#47D14C" />
 
